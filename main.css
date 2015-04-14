@@ -1,0 +1,83 @@
+
+* {
+	font-family: 'Bitter', serif;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.outer-shell {
+	background-color: #333;
+	width: 100%;
+	height: 400px;
+}
+.inner-shell {
+	background-color: #000;
+	height: 300px;
+	width: 95%;
+	margin: 0 auto;
+	transform: translate(0, 15%);
+	position: relative;
+}
+.clock-screen {
+	background-color: rgba(155, 26, 26, .6);
+	width: 80%;
+	height: 200px;
+ 	margin: 0 auto;
+ 	transform: translate(0, 10%);
+ 	display: inline-block;
+ 	position: relative;
+ 	bottom: 0;
+ 	right: 0;
+}
+.clock-text,
+.indicator {
+	color: #ff2626;
+	position: absolute;
+	font-size: 170px;
+}
+.clock-text {
+	right: 50px;
+	bottom: 0;
+}
+.indicator {
+	left: 20px;
+	bottom: -20px;
+}
+.left-labels {
+	color: #fff;
+	width: 9%;
+	margin-right: 15px;
+	font-size: 40px;
+	line-height: 105px;
+	text-align: right;
+	display:inline-block;
+}
+.am-frequencies,
+.fm-frequencies {
+	color: #fff;
+	display: block;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.am-frequencies ul,
+.fm-frequencies ul {
+	list-style: none;
+	padding-left: 0;
+	display: inline-block;
+	width: 100%;
+	margin: 0 2px;
+}
+.am-frequencies ul li,
+.fm-frequencies ul li {
+	display: inline-block;
+	width: 10%;
+}
+.am-frequencies ul li:first-child,
+.fm-frequencies ul li:first-child {
+	margin-right: 30px;
+}
+.am-frequencies {
+	bottom: -8px;
+}
